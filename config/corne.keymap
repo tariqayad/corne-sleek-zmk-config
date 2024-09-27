@@ -39,6 +39,44 @@
             bindings = <&to 3>;
             key-positions = <40 6>;
         };
+
+        fn_audio_out {
+            bindings = <&macro_audioout>;
+            key-positions = <11 40>;
+        };
+
+        fn_no_camera {
+            bindings = <&macro_no_camera>;
+            key-positions = <10 40>;
+        };
+
+        fn_mute {
+            bindings = <&macro_mute>;
+            key-positions = <9 40>;
+        };
+    };
+
+    macros {
+        macro_audioout: macro_audioout {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LC(LG(V))>;
+            label = "MACRO_AUDIOOUT";
+        };
+
+        macro_mute: macro_mute {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LC(LS(M))>;
+            label = "MACRO_MUTE";
+        };
+
+        macro_no_camera: macro_no_camera {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LC(LS(O))>;
+            label = "MACRO_NO_CAMERA";
+        };
     };
 
     keymap {
