@@ -117,7 +117,7 @@
 &kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6          &kp N7        &kp N8     &kp N9  &kp N0  &kp BSPC
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans          &kp UP_ARROW  &trans     &trans  &trans  &trans
 &kp LSHFT   &trans        &trans        &trans        &trans        &trans          &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans  &trans
-                                        &kp LGUI      &lt 0 &tog 0       &kp SPACE       &kp RET         &tog 2        &kp RALT
+                                        &kp LGUI      &tog 0        &kp SPACE       &kp ENTER       &tog 2        &tog 0
             >;
         };
 
@@ -133,16 +133,16 @@
 &kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
 &kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
 &kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                             &kp LGUI  &lt 1 0   &kp SPACE    &kp RET    &tog 3     &kp RALT
+                             &kp LGUI  &tog 1    &kp SPACE    &kp RET    &tog 3     &tog 0
             >;
         };
 
         functions {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5   &kp F6    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans   &trans    &trans  &trans  &kp F5  &kp F5   &trans   &trans
-&trans  &trans  &trans  &trans  &trans   &trans    &trans  &trans  &trans  &trans   &trans   &trans
-                        &trans  &lt 2 0  &trans    &trans  &trans  &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp F5  &kp F5   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans   &trans
+                        &trans  &tog 2  &trans    &trans  &trans  &tog 0
             >;
         };
 
