@@ -54,6 +54,11 @@
             bindings = <&macro_mute>;
             key-positions = <9 40>;
         };
+
+        colemak {
+            bindings = <&tog 5>;
+            key-positions = <37 29>;
+        };
     };
 
     macros {
@@ -155,21 +160,21 @@
             >;
         };
 
-        fncond {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &none           &none           &none      &none  &none  &none
-&trans  &trans  &trans  &trans  &trans  &trans    &none           &kp UP_ARROW    &none      &none  &none  &none
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none  &none  &trans
-                        &trans  &trans  &trans    &trans          &trans          &trans
-            >;
-        };
-
         colemakdh {
             bindings = <
 &trans  &kp Q  &kp W  &kp F   &kp P   &kp G     &kp J   &kp L   &kp U      &kp Y    &trans    &trans
 &trans  &kp A  &kp R  &kp S   &kp T   &kp D     &kp H   &kp N   &kp E      &kp I    &kp O     &trans
 &trans  &kp Z  &kp X  &kp C   &kp V   &kp B     &kp K   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
                       &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        fncond {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &none           &none           &none      &none  &none  &none
+&trans  &trans  &trans  &trans  &trans  &trans    &none           &kp UP_ARROW    &none      &none  &none  &none
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none  &none  &trans
+                        &trans  &trans  &trans    &trans          &trans          &trans
             >;
         };
     };
