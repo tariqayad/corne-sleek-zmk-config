@@ -142,7 +142,16 @@
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7  &kp F8  &kp F9          &kp F10  &kp F11  &kp F12
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp F5          &kp F5   &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans   &trans   &trans
-                        &trans  &tog 2  &trans    &trans  &trans  &lt 0 LEFT_ALT
+                        &trans  &tog 2  &trans    &trans  &tog 4  &lt 0 LEFT_ALT
+            >;
+        };
+
+        numpad {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &kp N7  &kp N8  &kp N9  &kp KP_SUBTRACT  &kp KP_DIVIDE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp N4  &kp N5  &kp N6  &kp KP_PLUS      &kp ASTRK      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp N1  &kp N2  &kp N3  &kp DOT          &trans         &trans
+                        &trans  &tog 3  &trans    &trans  &tog 0  &trans
             >;
         };
 
@@ -152,15 +161,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &none           &kp UP_ARROW    &none      &none  &none  &none
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none  &none  &trans
                         &trans  &trans  &trans    &trans          &trans          &trans
-            >;
-        };
-
-        numpad {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans   &trans    &kp N7  &kp N8  &kp N9  &kp KP_SUBTRACT  &kp KP_DIVIDE  &trans
-&trans  &trans  &trans  &trans  &trans   &trans    &kp N4  &kp N5  &kp N6  &kp KP_PLUS      &kp ASTRK      &trans
-&trans  &trans  &trans  &trans  &trans   &trans    &kp N1  &kp N2  &kp N3  &kp DOT          &trans         &trans
-                        &trans  &lt 4 0  &trans    &trans  &trans  &trans
             >;
         };
     };
