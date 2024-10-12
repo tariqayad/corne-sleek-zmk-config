@@ -156,16 +156,16 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &kp N7  &kp N8  &kp N9  &kp KP_SUBTRACT  &kp KP_DIVIDE  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp N4  &kp N5  &kp N6  &kp KP_PLUS      &kp ASTRK      &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp N1  &kp N2  &kp N3  &kp DOT          &trans         &trans
-                        &trans  &tog 3  &trans    &trans  &tog 0  &trans
+                        &trans  &to 3   &trans    &trans  &tog 0  &trans
             >;
         };
 
         colemakdh {
             bindings = <
-&trans  &kp Q  &kp W  &kp F   &kp P  &kp G     &kp J   &kp L   &kp U      &kp Y    &trans    &trans
-&trans  &kp A  &kp R  &kp S   &kp T  &kp D     &kp H   &kp N   &kp E      &kp I    &kp O     &trans
-&trans  &kp Z  &kp X  &kp C   &kp V  &kp B     &kp K   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
-                      &trans  &none  &trans    &trans  &tog 1  &trans
+&trans  &kp Q  &kp W  &kp F   &kp P  &kp G        &kp J      &kp L   &kp U      &kp Y    &trans    &trans
+&trans  &kp A  &kp R  &kp S   &kp T  &kp D        &kp H      &kp N   &kp E      &kp I    &kp O     &trans
+&trans  &kp Z  &kp X  &kp C   &kp V  &kp B        &kp K      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
+                      &trans  &to 0  &kp SPACE    &kp ENTER  &tog 1  &trans
             >;
         };
 
@@ -174,7 +174,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &none           &none           &none      &none  &none  &none
 &trans  &trans  &trans  &trans  &trans  &trans    &none           &kp UP_ARROW    &none      &none  &none  &none
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none  &none  &trans
-                        &trans  &trans  &trans    &trans          &trans          &trans
+                        &trans  &to 0   &trans    &trans          &trans          &trans
             >;
         };
     };
