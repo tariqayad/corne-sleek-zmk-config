@@ -35,11 +35,6 @@
             key-positions = <26 14>;
         };
 
-        toDebug {
-            bindings = <&to 3>;
-            key-positions = <40 6>;
-        };
-
         fn_audio_out {
             bindings = <&macro_audioout>;
             key-positions = <11 40>;
@@ -62,12 +57,12 @@
 
         home {
             bindings = <&kp HOME>;
-            key-positions = <6 7>;
+            key-positions = <7 8>;
         };
 
         end {
             bindings = <&kp END>;
-            key-positions = <30 31>;
+            key-positions = <31 32>;
         };
     };
 
