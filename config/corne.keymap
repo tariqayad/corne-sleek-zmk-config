@@ -64,6 +64,11 @@
             bindings = <&kp END>;
             key-positions = <31 32>;
         };
+
+        toggleSpecial {
+            bindings = <&mo 2>;
+            key-positions = <27 26>;
+        };
     };
 
     macros {
