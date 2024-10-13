@@ -69,6 +69,11 @@
             bindings = <&mo 2>;
             key-positions = <27 26>;
         };
+
+        righShift {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <22 21>;
+        };
     };
 
     macros {
