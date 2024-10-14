@@ -8,9 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-&mt {
-};
-
 / {
     combos {
         compatible = "zmk,combos";
@@ -103,6 +100,17 @@
             #binding-cells = <0>;
             bindings = <&none &to 0>;
             label = "MACRO_BASE_LAYER";
+        };
+    };
+
+    behaviors {
+        layerTapHold: layerTapHold {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LAYERTAPHOLD";
+            bindings = <&mo>, <&to>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
         };
     };
 
