@@ -47,11 +47,6 @@
             key-positions = <9 40>;
         };
 
-        colemak {
-            bindings = <&tog 5>;
-            key-positions = <37 29>;
-        };
-
         home {
             bindings = <&kp HOME>;
             key-positions = <7 8>;
@@ -60,11 +55,6 @@
         end {
             bindings = <&kp END>;
             key-positions = <31 32>;
-        };
-
-        toggleSpecial {
-            bindings = <&mo 2>;
-            key-positions = <27 26>;
         };
 
         righShift {
