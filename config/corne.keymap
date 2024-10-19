@@ -177,10 +177,10 @@
 
         numpad {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp N7  &kp N8  &kp N9  &kp KP_SUBTRACT  &kp KP_DIVIDE  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp N4  &kp N5  &kp N6  &kp KP_PLUS      &kp ASTRK      &trans
-&trans  &trans  &trans  &trans  &trans  &kp N0    &kp N1  &kp N2  &kp N3  &kp DOT          &trans         &trans
-                        &trans  &to 3   &trans    &trans  &to 5   &trans
+&trans  &kp N7  &kp N8  &kp N9  &kp MINUS  &kp KP_DIVIDE      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N4  &kp N5  &kp N6  &kp PLUS   &kp KP_MULTIPLY    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N0  &kp N1  &kp N3  &kp DOT    &kp KP_EQUAL       &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &to 3      &trans             &trans  &to 5   &trans
             >;
 
             label = "Num Pad";
@@ -206,6 +206,15 @@
             >;
 
             label = "Config";
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
         };
     };
 };
