@@ -144,7 +144,7 @@
 &kp TAB    &kp N1   &kp N2          &kp N3          &kp N4     &kp N5       &kp N6     &kp N7          &kp N8          &kp N9     &kp N0     &kp BSPC
 &kp LCTRL  &kp DEL  &kp INS         &kp UP_ARROW    &kp HOME   &kp END      &trans     &trans          &kp UP_ARROW    &trans     &kp PG_UP  &trans
 &kp LSHFT  &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans       &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp PG_DN  &trans
-                                    &kp LGUI        &to 0      &kp SPACE    &kp ENTER  &tog 2          &lt 0 LEFT_ALT
+                                    &kp LGUI        &to 0      &kp SPACE    &kp ENTER  &tog 2          &trans
             >;
         };
 
@@ -160,16 +160,16 @@
 &kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR      &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
 &kp LCTRL  &kp F1    &kp F2  &kp F3    &kp QUESTION  &kp TILDE    &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
 &kp LSHFT  &kp F4    &kp F5  &kp F6    &trans        &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                             &kp LGUI  &to 1         &kp SPACE    &kp RET    &tog 3     &lt 0 LEFT_ALT
+                             &kp LGUI  &to 1         &kp SPACE    &kp RET    &tog 3     &trans
             >;
         };
 
         functions {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7  &kp F8  &kp F9          &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp F5          &kp F5   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans   &trans   &trans
-                        &trans  &to 2   &trans    &trans  &tog 4  &lt 0 LEFT_ALT
+&trans  &kp F1  &kp F2  &kp F3  &kp F4   &kp F5     &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&trans  &kp F6  &kp F7  &kp F8  &kp F9   &kp F10    &trans  &trans  &kp F5  &kp F5   &trans   &trans
+&trans  &trans  &trans  &trans  &kp F11  &kp F12    &trans  &trans  &trans  &trans   &trans   &trans
+                        &trans  &to 2    &trans     &trans  &tog 4  &trans
             >;
 
             label = "Functions";
