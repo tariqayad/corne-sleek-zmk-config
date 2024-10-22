@@ -19,17 +19,17 @@
 
         bt1 {
             bindings = <&bt BT_SEL 0>;
-            key-positions = <25 13>;
+            key-positions = <25 1>;
         };
 
         bt2 {
             bindings = <&bt BT_SEL 1>;
-            key-positions = <26 14>;
+            key-positions = <26 2>;
         };
 
         bt3 {
             bindings = <&bt BT_SEL 2>;
-            key-positions = <27 15>;
+            key-positions = <27 3>;
         };
 
         fn_audio_out {
