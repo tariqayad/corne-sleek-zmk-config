@@ -46,21 +46,6 @@
             bindings = <&macro_mute>;
             key-positions = <9 40>;
         };
-
-        home {
-            bindings = <&kp HOME>;
-            key-positions = <7 8>;
-        };
-
-        end {
-            bindings = <&kp END>;
-            key-positions = <31 32>;
-        };
-
-        righShift {
-            bindings = <&kp RIGHT_SHIFT>;
-            key-positions = <19 20>;
-        };
     };
 
     macros {
@@ -199,7 +184,7 @@
 
         config {
             bindings = <
-&bootloader  &kp CLCK      &trans        &trans        &trans        &trans          &none           &none            &none      &none  &none  &none
+&bootloader  &kp CLCK      &trans        &trans        &trans        &trans          &none           &none            &none      &none  &none  &bootloader
 &trans       &trans        &trans        &trans        &trans        &trans          &none           &kp C_VOLUME_UP  &none      &none  &none  &none
 &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT_ARROW  &kp C_VOL_DN     &kp RIGHT  &none  &none  &to 5
                                          &trans        &to 0         &trans          &trans          &trans           &trans
