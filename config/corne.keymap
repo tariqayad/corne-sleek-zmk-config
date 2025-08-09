@@ -141,10 +141,10 @@
 
             display-name = "Num Arrows";
             bindings = <
-&kp TAB    &kp N1        &kp NUMBER_7  &kp N8        &kp N9        &kp HOME     &kp N6     &kp N7          &kp N8          &kp N9           &kp N0     &trans
-&kp LCTRL  &kp DEL       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp END      &trans     &trans          &kp UP_ARROW    &kp PRINTSCREEN  &kp PG_UP  &trans
-&kp LSHFT  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans       &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT        &kp PG_DN  &trans
-                                       &kp LGUI      &to 0         &kp SPACE    &kp ENTER  &tog 2          &trans
+&kp TAB    &kp SLASH        &kp NUMBER_7  &kp N8        &kp N9        &kp MINUS     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp UP          &kp LEFT_PARENTHESIS  &kp RS(RIGHT_PARENTHESIS)  &trans
+&kp LCTRL  &kp KP_MULTIPLY  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS      &kp HOME        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT             &kp END                    &kp PAGE_UP
+&kp LSHFT  &kp NUMBER_0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &none           &none            &none           &none                 &kp K_CONTEXT_MENU         &kp PAGE_DOWN
+                                          &kp LGUI      &to 0         &kp SPACE     &kp ENTER       &tog 2           &trans
             >;
         };
 
@@ -157,9 +157,9 @@
 
             display-name = "Special";
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR      &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &kp F1    &kp F2  &kp F3    &kp QUESTION  &kp TILDE    &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &kp F4    &kp F5  &kp F6    &trans        &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
+&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR      &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR       &kp BSPC
+&kp LCTRL  &kp F1    &kp F2  &kp F3    &kp QUESTION  &kp TILDE    &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp PIPE       &kp GRAVE
+&kp LSHFT  &kp F4    &kp F5  &kp F6    &trans        &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp BACKSLASH  &kp TILDE
                              &kp LGUI  &to 1         &kp SPACE    &kp RET    &tog 3     &trans
             >;
         };
@@ -206,15 +206,6 @@
             >;
 
             label = "Config";
-        };
-
-        layer_7 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-            >;
         };
     };
 };
