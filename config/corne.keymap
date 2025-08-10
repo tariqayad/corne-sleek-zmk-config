@@ -126,7 +126,7 @@
 
             display-name = "Num Arrows";
             bindings = <
-&kp TAB    &kp SLASH        &kp NUMBER_7  &kp N8        &kp N9        &kp MINUS     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp UP          &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &trans
+&kp TAB    &kp SLASH        &kp NUMBER_7  &kp N8        &kp N9        &kp MINUS     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp UP          &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp DEL
 &kp LCTRL  &kp KP_MULTIPLY  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS      &kp HOME        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT         &kp END             &kp PAGE_UP
 &kp LSHFT  &kp NUMBER_0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &none           &none            &none           &none             &kp K_CONTEXT_MENU  &kp PAGE_DOWN
                                           &kp LGUI      &to 0         &kp SPACE     &kp ENTER       &tog 2           &trans
@@ -142,7 +142,7 @@
 
             display-name = "Special";
             bindings = <
-&kp TAB  &kp EXCL  &kp AT  &kp HASH  &kp DLLR      &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR       &kp DEL
+&kp TAB  &kp EXCL  &kp AT  &kp HASH  &kp DLLR      &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR       &trans
 &trans   &kp F1    &kp F2  &kp F3    &kp QUESTION  &kp TILDE    &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp PIPE       &kp GRAVE
 &trans   &kp F4    &kp F5  &kp F6    &trans        &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp BACKSLASH  &kp TILDE
                            &kp LGUI  &to 1         &kp SPACE    &trans     &tog 3     &trans
@@ -154,21 +154,10 @@
 &trans  &kp F1  &kp F2  &kp F3  &kp F4   &kp F5     &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
 &trans  &kp F6  &kp F7  &kp F8  &kp F9   &kp F10    &trans  &trans  &kp F5  &kp F5   &trans   &trans
 &trans  &trans  &trans  &trans  &kp F11  &kp F12    &trans  &trans  &trans  &trans   &trans   &trans
-                        &trans  &to 2    &trans     &trans  &tog 6  &trans
+                        &trans  &to 2    &trans     &trans  &tog 5  &trans
             >;
 
             label = "Functions";
-        };
-
-        numpad {
-            bindings = <
-&trans  &kp N7  &kp N8  &kp N9  &kp MINUS  &kp KP_DIVIDE      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp N4  &kp N5  &kp N6  &kp PLUS   &kp KP_MULTIPLY    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp N0  &kp N1  &kp N3  &kp DOT    &kp KP_EQUAL       &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &to 3      &trans             &trans  &to 5   &trans
-            >;
-
-            label = "Num Pad";
         };
 
         colemakdh {
@@ -176,7 +165,7 @@
 &trans  &kp Q  &kp W  &kp F   &kp P  &kp G        &kp J      &kp L  &kp U      &kp Y    &trans    &trans
 &trans  &kp A  &kp R  &kp S   &kp T  &kp D        &kp H      &kp N  &kp E      &kp I    &kp O     &trans
 &trans  &kp Z  &kp X  &kp C   &kp V  &kp B        &kp K      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &trans
-                      &trans  &to 4  &kp SPACE    &kp ENTER  &to 6  &trans
+                      &trans  &to 0  &kp SPACE    &kp ENTER  &to 5  &trans
             >;
 
             label = "Colemak-Dh";
@@ -186,7 +175,7 @@
             bindings = <
 &bootloader  &kp CLCK      &trans        &trans        &trans        &trans          &none           &none            &none      &none  &none  &bootloader
 &trans       &trans        &trans        &trans        &trans        &trans          &none           &kp C_VOLUME_UP  &none      &none  &none  &none
-&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT_ARROW  &kp C_VOL_DN     &kp RIGHT  &none  &none  &to 5
+&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT_ARROW  &kp C_VOL_DN     &kp RIGHT  &none  &none  &to 4
                                          &trans        &to 0         &trans          &trans          &trans           &trans
             >;
 
