@@ -140,10 +140,10 @@
 
             display-name = "Num Arrows";
             bindings = <
-&kp TAB    &kp SLASH        &kp NUMBER_7  &kp N8        &kp N9        &kp MINUS     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp UP          &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp DEL
-&kp LCTRL  &kp KP_MULTIPLY  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS      &kp HOME        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT         &kp END             &kp PAGE_UP
-&kp LSHFT  &kp NUMBER_0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &none           &none            &none           &none             &kp K_CONTEXT_MENU  &kp PAGE_DOWN
-                                          &kp LGUI      &to 0         &kp SPACE     &kp ENTER       &tog 2           &trans
+&kp TAB  &kp SLASH        &kp NUMBER_7  &kp N8        &kp N9        &kp MINUS     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp UP          &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp DEL
+&trans   &kp KP_MULTIPLY  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS      &kp HOME        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT         &kp END             &kp PAGE_UP
+&trans   &kp NUMBER_0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &none           &none            &none           &none             &kp K_CONTEXT_MENU  &kp PAGE_DOWN
+                                        &kp LGUI      &to 0         &kp SPACE     &kp ENTER       &tog 2           &trans
             >;
         };
 
